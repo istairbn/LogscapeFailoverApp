@@ -14,6 +14,8 @@ What the provided scripts CAN do: RestartService.ps1 will (if given a server lis
 
 What this app will NOT do: Provide a failover manager, backup environments etc. 
 
+To use this App, you'll need to download this and put it in a zip file labelled LogscapeFailoverApp-1.0.zip
+
 The Failover Process therefore is:
 
 1. Set up alternative Manager. You have three options here:
