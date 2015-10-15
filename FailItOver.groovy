@@ -4,7 +4,7 @@ import groovy.lang.Binding;
 import groovy.util.GroovyScriptEngine;
 
 Properties properties = new Properties()
-def props = args.length > 0 ? ".\\lib\\" + args[0] : ".\\lib\\config.properties"
+def props = args.length > 0 ? "./lib/" + args[0] : "./lib/config.properties"
 def propertiesFile = new File(props)
 
 
