@@ -1,15 +1,15 @@
 <Bundle name="LogscapeFailoverApp" version="1.0" system="false">
   <status>UNINSTALLED</status>
-  <owner>ben.newton@excelian.com</owner>
+  <owner>support@logscape.com</owner>
   <services>
     <Service>
-  		<name>LogscapeFailover</name>
-		  <resourceSelection>type contains Forwarder</resourceSelection>
-	    <fork>true</fork>
-	    <background>true</background>
-		  <instanceCount>-1</instanceCount>
-		  <pauseSeconds>1800</pauseSeconds>
-		  <script>FailItOver.groovy config.properties</script>
+	<name>LogscapeFailover</name>
+	<resourceSelection>type contains Forwarder</resourceSelection>
+	<fork>true</fork>
+	<background>true</background>
+	<instanceCount>-1</instanceCount>
+	<pauseSeconds>1800</pauseSeconds>
+	<script>FailItOver.groovy config.properties</script>
     </Service>
   </services>
 </Bundle>
