@@ -2,7 +2,6 @@
 # Logscape Retargeting App 1.0
 # Author: Ben Newton
 # Created: 30/09/2015
-# Contact: Ben.Newton@excelian.com
 # Purpose: To provide a soft failover option for Logscape 
 ###########################################################################
 
